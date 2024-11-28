@@ -1,0 +1,54 @@
+<div class="container-fluid "> 
+        <div class="left-pane container">
+          <div class="heading">
+            <h1>CogNocx</h1>
+          </div>
+          <div class="container">
+            <div class="SignIn">
+              <h2>Sign In</h2>
+              <p>Don't have an account? <a routerLink="/signUp">Sign up</a></p>
+            </div>
+            <label for="email" class="form-label">Email</label>
+            <input type="email" name="email" id="email" class="form-control">
+            <label for="password" class="mt-3 form-label">Password</label>
+            <div class="input-group mb-3">
+              <input type="password" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon1">
+                <i class="fa-duotone fa-solid fa-eye-slash"></i>
+              </button>
+            </div>
+            <div class="mt-3 form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+              <label class="form-check-label" for="flexCheckDefault">Remember Me</label>
+              <a href="">Forget Password?</a>
+            </div>
+            <div class="mt-3 d-grid btn-container">
+              <button class="btn btn-primary" type="submit" routerLink="/dashboard">Login</button>
+            </div>
+            <div class="mt-4 divider">Or continue with</div>
+            <div class="logo-container mt-3 d-flex justify-content-center gap-5">
+              <img src="https://lh3.googleusercontent.com/COxitqgJr1sJnIDe8-jiKhxDx1FrYbtRHKJ9z_hELisAlapwE9LUPh6fcXIfb5vwpbMl4xl9H9TRFPc5NOO8Sb3VSgIBrfRYvW6cUA" height="24" width="24" alt="">
+              <img src="data:image/jpeg;base64,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" height="24" width="24" alt="">
+              <img src="https://mailmeteor.com/logos/assets/PNG/Microsoft_Logo_512px.png" height="24" width="24" alt="">
+            </div>
+          </div>        
+        </div>
+      <div class="right-pane">
+        <div class="container">
+            <h2>Welcome Back!</h2>
+            <h3>CogNocx</h3>
+            <p class="title">Seamless Collaboration</p>
+            <p class="desc">Your Gateway to Effortless Management. Effortlessly work together with your team in real-time.</p>
+            <div class="avatar-container">
+              <div class="avatars">
+                <img alt="Avatar 1" class="avatar" height="40" src="https://storage.googleapis.com/a1aa/image/MfgayjEZNoxbU62T4YfkE8e6fYSJiSeMsrZt7uH4Vsc0TAkeE.jpg" width="40"/>
+                <img alt="Avatar 2" class="avatar" height="40" src="https://storage.googleapis.com/a1aa/image/wJLRvi59RAqzFVlXUSyeHAstq9xJ75mjW8FBevYVCxmZCg0TA.jpg" width="40"/>
+                <img alt="Avatar 3" class="avatar" height="40" src="https://storage.googleapis.com/a1aa/image/ssDfcBIzAzWeb0PsufUIEswFjUPguAFXfllLAx6ImqffmAI9E.jpg" width="40"/>
+                <img alt="Avatar 4" class="avatar" height="40" src="https://storage.googleapis.com/a1aa/image/1YeABdsF5DU7P6rI7l8apVDIyWiYGAQNFgsevQ6RvWEcCg0TA.jpg" width="40"/>
+               </div>
+               <div class="footer-text">
+                More than 1K people joined us, it's your turn
+               </div>
+            </div>
+        </div>
+      </div>
