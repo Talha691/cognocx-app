@@ -4,6 +4,9 @@ export const content = [
 ];
 export const theme = {
   extend: {
+    colors: {
+      customGray: '#f8f9fa',
+    },
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],
     },
