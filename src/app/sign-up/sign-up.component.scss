@@ -1,169 +1,26 @@
-.container-fluid {
-    height: 100vh;
-    .left-pane {
-        height: 100vh;
-        background-image: url('../../assets/Frame\ 82.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        padding-left: 2rem;
-        display: flex;
-        flex-direction: column;
-        .company-name {
-            margin-top: 3rem;
-            margin-bottom: 2rem;
-            h1 {
-                color: #FF361F;
-                font-family: Poppins;
-                font-size: 40px;
-                font-weight: 700;
-                line-height: 60px;
-                text-align: left;
-                text-decoration-skip-ink: none;
-            }
-        }
-        .container {
-            margin-top: 3rem;
-            .SignIn {
-                margin-bottom: 2rem;
-                h2 {
-                    font-family: Inter;
-                    font-size: 32px;
-                    font-weight: 600;
-                    line-height: 38.73px;
-                    text-align: left;
-                    text-underline-position: from-font;
-                    text-decoration-skip-ink: none;
-                    color: #FFFFFF;                    
-                }
-                h5 {
-                    font-family: Inter;
-                    font-size: 16px;
-                    font-weight: 400;
-                    line-height: 20px;
-                    text-align: left;
-                    text-decoration-skip-ink: none;
-                    color: #F0F1F2;
-                }
-            }
-            .selected-plan {
-                p {
-                    font-family: Inter;
-                    font-size: 14px;
-                    font-weight: 400;
-                    line-height: 18px;
-                    text-underline-position: from-font;
-                    text-decoration-skip-ink: none;
-                    color: #FFFFFF;     
-                    margin-bottom: 0;     
-                    opacity: .8;      
-                }
-                h3 {
-                    font-family: Inter;
-                    font-size: 24px;
-                    font-weight: 600;
-                    text-align: left;
-                    line-height: 36px;
-                    text-underline-position: from-font;
-                    text-decoration-skip-ink: none;
-                    color: #FFFFFF;                
-                }
-                h2 {
-                    font-family: Poppins;
-                    font-size: 32px;
-                    font-weight: 600;
-                    line-height: 48px;
-                    text-align: left;
-                    text-underline-position: from-font;
-                    text-decoration-skip-ink: none;
-                    color: #FFFFFF;                
-                    span{
-                        font-family: Inter;
-                        font-size: 24px;
-                        font-weight: 400;
-                        line-height: 29.05px;
-                        text-align: left;
-                        text-underline-position: from-font;
-                        text-decoration-skip-ink: none;
-                        opacity: .7;                    
-                    }
-                }
-            }
-            .desc {
-                p {
-                    font-family: Poppins;
-                    font-size: 12px;
-                    font-weight: 400;
-                    line-height: 18px;
-                    text-align: left;
-                    text-underline-position: from-font;
-                    text-decoration-skip-ink: none;
-                    color: #FFFFFF;                
-                }
-            }
-            a {
-                font-family: Poppins;
-                font-size: 16px;
-                font-weight: 600;
-                line-height: 24px;
-                text-decoration: none;
-                text-decoration-skip-ink: none;
-                color: #FF361F;            
-            }
-        }
-    }
-    .right-pane {
-        height: 100vh;
-        width: 750px;
-        position: relative;
-        margin: 0;
-        padding: 0;
-        border: 1px solid black;
-        .container {
-            width: 65%;
-        }
-        .heading {
-            h2 {
-                margin-top: 2rem;
-                font-family: Poppins;
-                font-size: 24px;
-                font-weight: 600;
-                line-height: 48px;
-                text-align: left;
-                text-decoration-skip-ink: none;      
-                color: #222326;      
-            }
-        }
-        label {
-            font-family: Poppins;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 21px;
-            text-align: left;
-            text-decoration-skip-ink: none;
-            color: #3E3F40;
-        }
-        .form-control {
-            padding: .1rem .75rem;
-        }
-        .btn-container {
-            margin-top: 1.5rem;
-            .arrow {
-                cursor: pointer;
-                border: 1px solid #A7A8AB;
-                padding: 4px 15px;
-                i {
-                    color: #565759;
-                }
-            }
-            button {
-                width: 156px;
-                padding: 0;
-                margin: 0;
-                border: none;
-                background-color: #EC1C24;
-            }
-        }
+input {
+  margin-top: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  background-color: white;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: #64748b;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  width: 100%;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  &:focus {
+      border-color: #38bdf8;
+      box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.5);
     }
 }
+label {
+  color: #3e3f40;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
