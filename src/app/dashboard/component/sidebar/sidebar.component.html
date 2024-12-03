@@ -1,17 +1,18 @@
-<div class="w-full h-[100vh]">
-  <div class="bg-white shadow-md">
+<div class="w-full h-[100vh] border">
+  <div class="bg-white">
       <h2 class="text-[#FF361F] font-[700] text-[32px] mb-4 p-4">CogNocx</h2>
       <nav class="flex relative flex-col gap-2 px-4">
-          <div
+        <div
           *ngFor="let item of sidebarItems; let i = index"
-          (click)="setActiveItem(i)"
+          (click)="navigateToRoute(i)"
           [class.active-item]="i === activeIndex"
           class="sidebar-items"
         >
-          <img [src]="item.icon" alt="">
+          <img [src]="item.icon" alt="" />
           <h3 [class.active]="i === activeIndex">{{ item.label }}</h3>
         </div>
       </nav>
+
   </div>
 </div>
 <script src="https://cdn.tailwindcss.com"></script>

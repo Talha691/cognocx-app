@@ -7,7 +7,6 @@ import { LoginComponent } from './login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
@@ -21,7 +20,6 @@ import { MatIconModule } from '@angular/material/icon';
     AppRoutingModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
