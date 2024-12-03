@@ -8,7 +8,10 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { ToolbarComponent } from './component/toolbar/toolbar.component';
 import { ProjectOverviewComponent } from './component/project-overview/project-overview.component';
 import { ProjectListComponent } from './component/project-list/project-list.component';
-
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
+import { MatOptionModule } from '@angular/material/core';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,11 @@ import { ProjectListComponent } from './component/project-list/project-list.comp
   ],
   imports: [
     CommonModule,
-    DashboardRoutingModule
+    DashboardRoutingModule,
+    MatIconModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    MatOptionModule
   ]
 })
 export class DashboardModule { }

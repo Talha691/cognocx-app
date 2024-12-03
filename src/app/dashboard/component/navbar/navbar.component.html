@@ -1,1 +1,46 @@
-<p>navbar works!</p>
+<header class="w-[100%] flex items-center justify-between p-4 bg-white drop-shadow-md">
+  <h1 class="text-[24px] text-[#464255] font-[600] font-poppins">
+    Dashboard
+  </h1>
+  <div class="flex items-center space-x-4">
+    <div class="relative">
+      <select
+        class="block appearance-none w-full bg-white border border-gray-300 text-gray-700 py-2 pl-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-[#80bdff] focus:shadow-[0_0_0_0.2rem_rgba(0,123,255,0.25)]">
+        <option>
+          English
+        </option>
+        <option>
+          German
+        </option>
+      </select>
+      <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+    <div class="flex items-center gap-[1rem]">
+      <button class="relative py-1 px-2 bg-[#F09A1033] rounded-[15px]">
+        <i class="fas fa-bell text-orange-500 text-xl"></i>
+        <span class="absolute top-0 right-0 inline-block w-2 h-2 bg-red-500 rounded-full">
+        </span>
+      </button>
+      <button class="relative py-1 px-2 bg-[#2D9CDB26] rounded-[15px]">
+        <i class="fas fa-comment-dots text-blue-500 text-xl">
+        </i>
+      </button>
+      <button class="relative py-1 px-2 bg-[#A4A4A42B] rounded-[15px]">
+        <i class="fas fa-cog text-gray-500 text-xl">
+        </i>
+      </button>
+    </div>
+    <div class="flex items-center space-x-2">
+      <span class="text-gray-800">
+        Hello, Sofia
+      </span>
+      <img alt="User profile picture" class="w-10 h-10 rounded-full border-2 border-green-500" height="40"
+        src="https://storage.googleapis.com/a1aa/image/v8xDAaTOilJbFt4vWwXrwjo7gDvbFXlkbJlxgSIXRqZKIx9E.jpg"
+        width="40" />
+      <i class="fas fa-chevron-down text-gray-500">
+      </i>
+    </div>
+  </div>
+</header>
